@@ -10,7 +10,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<!-- تم إضافة defer لضمان تحميل المكتبات بعد بناء الصفحة -->
 <script defer src="https://cdn.tailwindcss.com"></script>
 <script defer src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
@@ -535,12 +534,12 @@ function showToast(msg, type = 'info') {
 function plotFig(traces, layout, height = 320, legend = false) {
     const fam = state.language === 'ar' ? "'IBM Plex Sans Arabic', Tajawal, sans-serif" : "Outfit, sans-serif";
     const base = {
-        margin: { l: 0, r: 0, t: 10, b: 0 },
+        margin: { l: 60, r: 20, t: 20, b: 50 },
         height: height,
         paper_bgcolor: "rgba(0,0,0,0)",
         plot_bgcolor: "rgba(0,0,0,0)",
-        font: { family: fam, color: "#94a3b8" },
-        hoverlabel: { bgcolor: "#0f172a", bordercolor: "#6366f1", font: { family: fam, color: "#e2e8f0" } },
+        font: { family: fam, color: "#94a3b8", size: 12 },
+        hoverlabel: { bgcolor: "#0f172a", bordercolor: "#6366f1", font: { family: fam, color: "#e2e8f0", size: 13 } },
         showlegend: legend
     };
     return { data: traces, layout: Object.assign(base, layout) };
@@ -548,18 +547,19 @@ function plotFig(traces, layout, height = 320, legend = false) {
 
 const plotlyConfig = { displayModeBar: false, responsive: true, displaylogo: false };
 
-// الدالة المحدثة لرسم المخططات مع إعادة ضبط الحجم
 function mountPlotly(elId, fig) {
     const el = document.getElementById(elId);
     if (!el) return;
     Plotly.newPlot(el, fig.data, fig.layout, plotlyConfig);
-    // إعطاء المتصفح وقتاً لتطبيق التنسيقات ثم إعادة الحجم
     setTimeout(() => {
         const currentEl = document.getElementById(elId);
-        if (currentEl) {
-            Plotly.Plots.resize(currentEl);
-        }
+        if (currentEl) Plotly.Plots.resize(currentEl);
     }, 150);
+}
+
+// دالة مساعدة لتنسيق المحور المالي
+function getCurrencyLayout() {
+    return { tickprefix: state.currencySymbol, tickformat: ",.0f" };
 }
 
 /* ============================================================
@@ -1031,12 +1031,24 @@ function renderHome() {
 
     document.getElementById('content-container').innerHTML = html;
 
+    // تحسين الرسم البياني للصفحة الرئيسية
     const fig = plotFig(
-        [{ x: monthly.map(m => m.month), y: monthly.map(m => m.value), name: t('historical_sales'),
-           mode: 'lines+markers', fill: 'tozeroy', fillcolor: 'rgba(129,140,248,0.12)',
-           line: { color: "#818cf8", width: 3, shape: 'spline' },
-           marker: { size: 6, color: "#22d3ee" } }],
-        { xaxis: { showgrid: false, linecolor: "#334155" }, yaxis: { showgrid: true, gridcolor: "#1e293b" } },
+        [{ 
+            x: monthly.map(m => m.month + '-01'), // تمرير التاريخ كـ YYYY-MM-DD ليفهمه Plotly
+            y: monthly.map(m => m.value), 
+            name: t('historical_sales'),
+            mode: 'lines+markers', 
+            fill: 'tozeroy', 
+            fillcolor: 'rgba(129,140,248,0.12)',
+            line: { color: "#818cf8", width: 3, shape: 'spline' },
+            marker: { size: 6, color: "#22d3ee" },
+            hovertemplate: `<b>%{x|%b %Y}</b><br>${t('total_revenue')}: ${state.currencySymbol}%{y:,.0f}<extra></extra>`
+        }],
+        { 
+            xaxis: { type: 'date', tickformat: '%b %Y', showgrid: false, linecolor: "#334155" }, 
+            yaxis: Object.assign({ showgrid: true, gridcolor: "#1e293b" }, getCurrencyLayout()),
+            hovermode: 'x unified'
+        },
         260
     );
     mountPlotly('homeChart', fig);
@@ -1121,20 +1133,44 @@ function renderDashboard() {
 
     document.getElementById('content-container').innerHTML = html;
 
+    // تحسين الرسم البياني للإيرادات عبر الزمن
     const fig1 = plotFig(
-        [{ x: monthly.map(m => m.month), y: monthly.map(m => m.value), name: t('historical_sales'),
-           mode: 'lines', fill: 'tozeroy', fillcolor: 'rgba(129,140,248,0.18)',
-           line: { color: "#818cf8", width: 3, shape: 'spline' } }],
-        { xaxis: { showgrid: false, linecolor: "#334155", title: null }, yaxis: { showgrid: true, gridcolor: "#1e293b", title: null } },
+        [{ 
+            x: monthly.map(m => m.month + '-01'), 
+            y: monthly.map(m => m.value), 
+            name: t('historical_sales'),
+            mode: 'lines', 
+            fill: 'tozeroy', 
+            fillcolor: 'rgba(129,140,248,0.18)',
+            line: { color: "#818cf8", width: 3, shape: 'spline' },
+            hovertemplate: `<b>%{x|%b %Y}</b><br>${t('total_revenue')}: ${state.currencySymbol}%{y:,.0f}<extra></extra>`
+        }],
+        { 
+            xaxis: { type: 'date', tickformat: '%b %Y', showgrid: false, linecolor: "#334155", title: null }, 
+            yaxis: Object.assign({ showgrid: true, gridcolor: "#1e293b", title: null }, getCurrencyLayout()),
+            hovermode: 'x unified'
+        },
         320
     );
     mountPlotly('revChart', fig1);
 
+    // تحسين رسم الأسواق
     const fig2 = plotFig(
-        [{ x: markets.map(m => m.value), y: markets.map(m => m.key), type: 'bar', orientation: 'h',
-           marker: { color: "#c084fc" } }],
-        { xaxis: { showgrid: true, gridcolor: "#1e293b", linecolor: "#334155", title: null },
-          yaxis: { showgrid: false, title: null, autorange: "reversed" } },
+        [{ 
+            x: markets.map(m => m.value), 
+            y: markets.map(m => m.key), 
+            type: 'bar', 
+            orientation: 'h',
+            marker: { color: "#c084fc" },
+            hovertemplate: `<b>%{y}</b><br>${t('total_revenue')}: ${state.currencySymbol}%{x:,.0f}<extra></extra>`,
+            text: markets.map(m => money(m.value, 0)),
+            textposition: 'auto'
+        }],
+        { 
+            xaxis: Object.assign({ showgrid: true, gridcolor: "#1e293b", linecolor: "#334155", title: null }, getCurrencyLayout()),
+            yaxis: { showgrid: false, title: null, autorange: "reversed" },
+            margin: { l: 100, r: 20, t: 20, b: 40 }
+        },
         320
     );
     mountPlotly('marketsChart', fig2);
@@ -1200,14 +1236,34 @@ function runForecastUI() {
         </div>
     </div>`;
 
+    // تحسين رسم التنبؤات
     const fig = plotFig(
         [
-            { x: res.dates, y: res.y, name: t('historical_sales'), mode: 'lines+markers', line: { color: "#94a3b8", width: 2 } },
-            { x: res.dates, y: res.pred, name: t('projected_revenue'), mode: 'lines', fill: 'tozeroy',
-              fillcolor: 'rgba(129,140,248,0.10)', line: { color: "#818cf8", width: 3, dash: 'dash', shape: 'spline' } }
+            { 
+                x: res.dates, 
+                y: res.y, 
+                name: t('historical_sales'), 
+                mode: 'lines+markers', 
+                line: { color: "#94a3b8", width: 2 },
+                hovertemplate: `<b>%{x|%d %b %Y}</b><br>${t('historical_sales')}: ${state.currencySymbol}%{y:,.0f}<extra></extra>`
+            },
+            { 
+                x: res.dates, 
+                y: res.pred, 
+                name: t('projected_revenue'), 
+                mode: 'lines', 
+                fill: 'tozeroy',
+                fillcolor: 'rgba(129,140,248,0.10)', 
+                line: { color: "#818cf8", width: 3, dash: 'dash', shape: 'spline' },
+                hovertemplate: `<b>%{x|%d %b %Y}</b><br>${t('projected_revenue')}: ${state.currencySymbol}%{y:,.0f}<extra></extra>`
+            }
         ],
-        { hovermode: "x unified", legend: { orientation: 'h', y: 1.08 },
-          xaxis: { showgrid: false, linecolor: "#334155" }, yaxis: { showgrid: true, gridcolor: "#1e293b" } },
+        { 
+            hovermode: "x unified", 
+            legend: { orientation: 'h', y: 1.08 },
+            xaxis: { type: 'date', tickformat: '%d %b', showgrid: false, linecolor: "#334155" }, 
+            yaxis: Object.assign({ showgrid: true, gridcolor: "#1e293b" }, getCurrencyLayout())
+        },
         400, true
     );
     mountPlotly('forecastChart', fig);
@@ -1307,9 +1363,16 @@ function renderSummary() {
 
     const topProds = prods.slice(0, 7);
     const pie = plotFig(
-        [{ labels: topProds.map(p => p.key), values: topProds.map(p => p.value), type: 'pie', hole: 0.62,
-           marker: { line: { color: '#0b1224', width: 2 },
-                     colors: ['#818cf8','#22d3ee','#c084fc','#f472b6','#34d399','#fbbf24','#60a5fa'] } }],
+        [{ 
+            labels: topProds.map(p => p.key), 
+            values: topProds.map(p => p.value), 
+            type: 'pie', 
+            hole: 0.62,
+            textinfo: 'percent+label',
+            textposition: 'inside',
+            hovertemplate: `<b>%{label}</b><br>${t('total_revenue')}: ${state.currencySymbol}%{value:,.0f}<br>النسبة: %{percent}<extra></extra>`,
+            marker: { line: { color: '#0b1224', width: 2 }, colors: ['#818cf8','#22d3ee','#c084fc','#f472b6','#34d399','#fbbf24','#60a5fa'] } 
+        }],
         { legend: { orientation: 'h', y: -0.1 }, margin: { l: 0, r: 0, t: 0, b: 0 } },
         330, true
     );
@@ -1317,11 +1380,21 @@ function renderSummary() {
 
     const topMarkets = markets.slice(0, 7).slice().reverse();
     const bar = plotFig(
-        [{ x: topMarkets.map(m => m.value), y: topMarkets.map(m => m.key), type: 'bar', orientation: 'h',
-           marker: { color: topMarkets.map(m => m.value), colorscale: [[0,'#312e81'],[0.5,'#818cf8'],[1,'#22d3ee']] } }],
-        { margin: { l: 0, r: 0, t: 0, b: 0 },
-          xaxis: { showgrid: true, gridcolor: '#273449', title: null },
-          yaxis: { showgrid: false, title: null } },
+        [{ 
+            x: topMarkets.map(m => m.value), 
+            y: topMarkets.map(m => m.key), 
+            type: 'bar', 
+            orientation: 'h',
+            text: topMarkets.map(m => money(m.value, 0)),
+            textposition: 'auto',
+            hovertemplate: `<b>%{y}</b><br>${t('total_revenue')}: ${state.currencySymbol}%{x:,.0f}<extra></extra>`,
+            marker: { color: topMarkets.map(m => m.value), colorscale: [[0,'#312e81'],[0.5,'#818cf8'],[1,'#22d3ee']] } 
+        }],
+        { 
+            margin: { l: 100, r: 20, t: 20, b: 40 },
+            xaxis: Object.assign({ showgrid: true, gridcolor: '#273449', title: null }, getCurrencyLayout()),
+            yaxis: { showgrid: false, title: null } 
+        },
         330
     );
     mountPlotly('marketBar', bar);
@@ -1695,7 +1768,6 @@ buildNav();
 initRipple();
 initParticles();
 
-// انتظار تحميل الخطوط لتجنب تعفس التصميم
 if (document.fonts && document.fonts.ready) {
     document.fonts.ready.then(() => {
         setPage('home', false);
