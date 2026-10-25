@@ -8,16 +8,24 @@
 
 *𝑻𝒓𝒂𝒏𝒔𝒇𝒐𝒓𝒎𝒊𝒏𝒈 𝑹𝒂𝒘 𝑫𝒂𝒕𝒂 𝒊𝒏𝒕𝒐 𝑬𝒙𝒆𝒄𝒖𝒕𝒊𝒗𝒆 𝑫𝒆𝒄𝒊𝒔𝒊𝒐𝒏𝒔*
 
-[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-CLICK_HERE-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://Shahad58.github.io/NexusSales-AI/)
+<br>
+
+[![UI Preview](https://img.shields.io/badge/🖥️_UI_PREVIEW-CLICK_HERE-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://Shahad58.github.io/NexusSales-AI-HTML/)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![NiceGUI](https://img.shields.io/badge/NiceGUI-Framework-8b5cf6?style=for-the-badge)](https://nicegui.io/)
-[![Machine Learning](https://img.shields.io/badge/ML-Forecasting-10b981?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Made with Love](https://img.shields.io/badge/Made_with-❤️_&_☕-ff69b4?style=for-the-badge)](#)
+[![Responsive](https://img.shields.io/badge/Responsive-100%25-10b981?style=for-the-badge&logo=googlechrome&logoColor=white)](#)
 
 </div>
 
 ---
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+> [!IMPORTANT]  
+> **Static Preview Note:** The GitHub Pages link above is a **Static UI Preview**. The full interactive features (ML Forecasting, Chatbot, Data Cleaning) require a Python backend. Please follow the "Run Locally" instructions below to test the full functionality.
+
+---
 
 ## ⚡ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑶𝒗𝒆𝒓𝒗𝒊𝒆𝒘 | نظرة عامة
 
@@ -64,21 +72,22 @@ Whether you need to understand historical performance, predict next quarter's re
 
 ---
 
-## 📸 𝑺𝒏𝒆𝒂𝒌 𝑷𝒆𝒆𝒌 | لمحة سريعة
+## 🖼️ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑮𝒂𝒍𝒍𝒆𝒓𝒚 | معرض المشروع
+
 <div align="center">
-
-
-
-
-
-
-  <img width="1024" height="842" alt="watermarked_img_3804727999505193157" src="https://github.com/user-attachments/assets/30a0f356-9b55-4037-bdf4-ea5dc9c6b77c" />
-
+  <br>
+  <!-- ✂️ امسح هذا السطر واسحب وأفلت صورتك الشاملة (أو صورة الـ GIF) هنا -->
+  <!-- مثال: <img src="رابط_الصورة" width="800" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" /> -->
+  <br>
 </div>
 
 ---
 
 ## 🛠️ 𝑻𝒆𝒄𝒉 𝑺𝒕𝒂𝒄𝒌 | التقنيات المستخدمة
+
+<details>
+<summary><b>👉 Click to view the Technologies used (انقر لعرض التقنيات)</b></summary>
+<br>
 
 <div align="center">
 
@@ -91,32 +100,20 @@ Whether you need to understand historical performance, predict next quarter's re
 | **Architecture** | Event-Driven, Auto-Cleaning Pipelines, RTL Adaptability |
 
 </div>
+</details>
 
 ---
 
-## 🚀 𝑹𝒆𝒂𝒅𝒚 𝒕𝒐 𝑬𝒙𝒑𝒍𝒐𝒓𝒆? | جرب المشروع الآن
+## ⚙️ 𝑹𝒖𝒏 𝑳𝒐𝒄𝒂𝒍𝒍𝒚 | التشغيل المحلي (للتجربة الكاملة)
 
-<div align="center">
-  <br>
-  <a href="https://Shahad58.github.io/NexusSales-AI/">
-    <img src="https://img.shields.io/badge/⛥_LAUNCH_NEXUSSALES_AI-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="Launch Live Demo" width="300">
-  </a>
-  <br><br>
-  <i>*No installation required. Experience the full interactive dashboard directly in your browser.*</i>
-</div>
-
----
-
-## ⚙️ 𝑹𝒖𝒏 𝑳𝒐𝒄𝒂𝒍𝒍𝒚 | التشغيل المحلي
-
-To run this project on your machine, follow these steps:
+To run this project on your machine and test the full interactive features:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Shahad58/NexusSales-AI.git
+git clone https://github.com/Shahad58/NexusSales-AI-HTML.git
 
 # 2. Navigate to the project directory
-cd NexusSales-AI
+cd NexusSales-AI-HTML
 
 # 3. Install dependencies
 pip install -r requirements.txt
