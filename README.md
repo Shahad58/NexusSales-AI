@@ -64,11 +64,15 @@ Whether you need to understand historical performance, predict next quarter's re
 
 ---
 
-## 🖥️ 𝑽𝒊𝒔𝒖𝒂𝒍 𝑻𝒐𝒖𝒓 | جولة بصرية في المشروع
-
+## 📸 𝑺𝒏𝒆𝒂𝒌 𝑷𝒆𝒆𝒌 | لمحة سريعة
 <div align="center">
 
-<img width="1920" height="4558" alt="screencapture-127-0-0-1-8080-2026-10-25-23_36_36" src="https://github.com/user-attachments/assets/b981edde-328d-4023-b123-5e88524b251d" />
+
+
+
+
+
+  <img width="1024" height="842" alt="watermarked_img_3804727999505193157" src="https://github.com/user-attachments/assets/30a0f356-9b55-4037-bdf4-ea5dc9c6b77c" />
 
 </div>
 
@@ -96,16 +100,6 @@ Whether you need to understand historical performance, predict next quarter's re
   <br>
   <a href="https://Shahad58.github.io/NexusSales-AI/">
     <img src="https://img.shields.io/badge/⛥_LAUNCH_NEXUSSALES_AI-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="Launch Live Demo" width="300">
-
-
-
-<img width="800" height="370" alt="ezgif-72487de3b76858bf" src="https://github.com/user-attachments/assets/b77a644b-1847-4405-9601-0e76ac410a64" />
-
-
-<img width="800" height="370" alt="ezgif-7f98f0388556fb41" src="https://github.com/user-attachments/assets/dd46b781-b439-4a6c-9faf-48c338fc0941" />
-
-<img width="800" height="370" alt="ezgif-73e64a22cca3c09b" src="https://github.com/user-attachments/assets/25a7c314-1655-46a7-bcfc-9358c98e13f5" />
-
   </a>
   <br><br>
   <i>*No installation required. Experience the full interactive dashboard directly in your browser.*</i>
