@@ -30,13 +30,10 @@
 ---
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-> [!WARNING]  
-> **⚠️ تنبيه هام (Important Note)**
-> الرابط الموجود بالأعلى هو **عرض تجريبي للواجهة فقط (Static HTML Preview)** لتصفح التصميم بسرعة.
-> **للحصول على التجربة الكاملة واختبار الذكاء الاصطناعي ومعالجة البيانات، ننصحك بشدة باتباع الخطوات الثلاث أدناه لتشغيل المشروع محلياً.**
-> 
-> *The link above is a **Static UI Preview** only. To test the full AI and data processing features, please follow the 3 steps below to run the Python application locally.*
+> [!NOTE]
+> **💡 تلميح استكشافي (Explore the Full Experience)**
+> الرابط المذكور أعلاه يمثل **نسخة استعراضية للواجهة (Static UI Preview)** لتفقد التصميم وسرعة التصفح.  
+> **للاستمتاع بالمميزات الكاملة لمحرك الذكاء الاصطناعي ومعالجة البيانات، ندعوك لتشغيل النسخة البرمجية الكاملة محلياً باتباع الخطوات البسيطة التالية:**
 
 ---
 
