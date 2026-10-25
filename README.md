@@ -3,7 +3,11 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=818CF8&center=true&vCenter=true&width=800&lines=Executive+Sales+Intelligence;AI-Powered+Forecasting;Interactive+Dashboard;Full+Bilingual+(RTL)+Support" alt="Typing SVG" />
 
 <br>
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Hearts.png" alt="Love" width="45" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Blossom.png" alt="Flower" width="45" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Sparkling%20Heart.png" alt="Sparkle" width="45" />
+</div>
 **𝐍𝐞𝐱𝐮𝐬𝐒𝐚𝐥𝐞𝐬 𝐀𝐈** ⛥
 
 *𝑻𝒓𝒂𝒏𝒔𝒇𝒐𝒓𝒎𝒊𝒏𝒈 𝑹𝒂𝒘 𝑫𝒂𝒕𝒂 𝒊𝒏𝒕𝒐 𝑬𝒙𝒆𝒄𝒖𝒕𝒊𝒗𝒆 𝑫𝒆𝒄𝒊𝒔𝒊𝒐𝒏𝒔*
@@ -93,7 +97,9 @@ python app.py
 
 <div align="center">
   <br>
-  <!-- ✂️ امسح هذا السطر واسحب وأفلت صورة الـ GIF أو الصورة الشاملة هنا لتظهر في المنتصف -->
+<img width="1024" height="842" alt="25e9d37b-5904-4779-a229-d21fa92760a9" src="https://github.com/user-attachments/assets/230c3d48-b535-4fd3-b6c3-cda3555014d3" />
+
+  
   <br>
 </div>
 
