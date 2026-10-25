@@ -36,6 +36,9 @@
 <img width="800" height="366" alt="VideoProject3-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/9888ad35-85b8-4760-b2eb-c753243ca039" />
 
 
+
+<img width="1920" height="4558" alt="screencapture-127-0-0-1-8080-2026-10-25-23_36_36" src="https://github.com/user-attachments/assets/b981edde-328d-4023-b123-5e88524b251d" />
+
 ### 2. Executive Dashboard & Forecasts
 ![Dashboard](assets/screenshot2.png)
 
