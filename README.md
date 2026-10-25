@@ -10,31 +10,27 @@
 
 <br>
 
-<!-- زر التشغيل المباشر -->
-<a href="https://Shahad58.github.io/NexusSales-AI-HTML/">
-  <img src="https://img.shields.io/badge/🚀_TRY_THE_PROJECT_NOW-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Try the Project Now" height="45">
-</a>
-
-<br><br>
-
+[![Static HTML Preview](https://img.shields.io/badge/🖥️_UI_PREVIEW-CLICK_HERE-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shahad58.github.io/NexusSales-AI/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![NiceGUI](https://img.shields.io/badge/NiceGUI-Framework-8b5cf6?style=for-the-badge)](https://nicegui.io/)
-[![Made with Love](https://img.shields.io/badge/Made_with-❤️_&_☕-ff69b4?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+> [!WARNING]
+> **⚠️ معاينة الواجهة (Static Preview)**
+> الرابط أعلاه هو **عرض تجريبي للواجهة فقط (HTML/CSS/JS)** لتتمكن من تصفح التصميم بسرعة.  
+> **للحصول على التجربة الكاملة واختبار الذكاء الاصطناعي ومعالجة البيانات، ننصحك بشدة بتشغيل المشروع محلياً (Run Locally) باتباع الخطوات أدناه.**
 
-> [!NOTE]  
-> **Live UI Preview:** The link above directs to a **Static HTML Preview** of the dashboard. To test the full AI and backend features (Forecasting, Chatbot), please follow the "Run Locally" guide below.
+---
 
 ## ⚡ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑶𝒗𝒆𝒓𝒗𝒊𝒆𝒘 | نظرة عامة
 
-**NexusSales AI** is not just a dashboard; it is a comprehensive **Executive Decision Engine**. Designed for modern sales leaders, it bridges the gap between raw, messy data and actionable business intelligence. 
+**NexusSales AI** is a premium, interactive executive dashboard designed to transform raw sales data into actionable business intelligence. It features dynamic data visualization, bilingual support (English/Arabic RTL), and a sleek glassmorphism design. 
 
-Whether you need to understand historical performance, predict next quarter's revenue, or instantly query your data via an AI assistant, NexusSales AI delivers a seamless, premium, and fully bilingual experience.
+The project includes both a **Static HTML Preview** (for quick viewing) and a **Full Python Application** (for complete data processing and AI forecasting).
 
 ---
 
@@ -43,83 +39,86 @@ Whether you need to understand historical performance, predict next quarter's re
 <table>
   <tr>
     <td width="50%">
-      <h3>📊 Executive Dashboard</h3>
-      <p>Real-time KPIs, revenue trends, and top-performing markets visualized with stunning, interactive Plotly charts.</p>
+      <h3>📊 Interactive Charts</h3>
+      <p>Powered by Plotly.js, featuring revenue trends, market comparisons, and product breakdowns with hover details.</p>
     </td>
-    <td width="50%">
-      <h3>🤖 AI-Powered Forecasting</h3>
-      <p>Leverages Machine Learning (<b>Scikit-learn</b>) to project future revenue based on historical seasonal data.</p>
-    </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3>🌍 True Bilingual UI (RTL)</h3>
-      <p>Seamless switching between English and Arabic. The entire layout, fonts, and charts adapt automatically to Right-to-Left.</p>
-    </td>
-    <td width="50%">
-      <h3>🧹 Automated Data Cleaning</h3>
-      <p>Drop any messy CSV or Excel file. The Pandas pipeline auto-detects currencies, parses dates, and cleans garbage data.</p>
+      <p>Seamless switching between English and Arabic, with complete RTL layout mirroring via CSS and JavaScript.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3>💬 Smart Executive Chatbot</h3>
-      <p>Ask natural language questions like <i>"What is my top product?"</i> and get instant, data-driven answers.</p>
+      <h3>🧮 Client-Side Data Engine</h3>
+      <p>Upload CSV/Excel files and watch the dashboard recalculate instantly using PapaParse and SheetJS.</p>
     </td>
     <td width="50%">
-      <h3>🎨 Premium Glassmorphism</h3>
-      <p>State-of-the-art UI with particle animations, smooth transitions, and a fully responsive layout.</p>
+      <h3>🎨 Premium Design</h3>
+      <p>Glassmorphism cards, particle animations, and fully responsive layouts for desktop and mobile.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🖼️ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑮𝒂𝒍𝒍𝒆𝒓𝒚 | معرض المشروع
+## 🖥️ 𝑾𝒆𝒃 𝑷𝒓𝒆𝒗𝒊𝒆𝒘 | معاينة الواجهة (للتجربة فقط)
+
+يمكنك تصفح الواجهة مباشرة من متصفحك دون الحاجة لأي تثبيت عبر الرابط التالي:  
+👉 **[اضغط هنا لفتح معاينة الواجهة](https://shahad58.github.io/NexusSales-AI/)**
+
+---
+
+## 🖼️ 𝑽𝒊𝒔𝒖𝒂𝒍 𝑻𝒐𝒖𝒓 | جولة بصرية للنظام
+
+> نظرة شاملة على واجهات النظام ومميزاته المختلفة عبر الصفحات المتعددة:
 
 <div align="center">
-  <br>
-  <!-- ✂️ امسح هذا السطر واسحب صورة الـ GIF المتحركة هنا -->
-  
-  <br>
+
+| System Overview (Full Showcase) | English Landing Page | Arabic Landing Page (RTL) |
+| :---: | :---: | :---: |
+| ![Full Showcase](https://raw.githubusercontent.com/Shahad58/NexusSales-AI/main/screenshots/watermarked_img_18340789089489747318.jpg) | ![Landing EN](https://raw.githubusercontent.com/Shahad58/NexusSales-AI/main/screenshots/image_32aa1e.jpg) | ![Landing AR](https://raw.githubusercontent.com/Shahad58/NexusSales-AI/main/screenshots/image_32ae19.jpg) |
+
+| Main Dashboard | Sales Forecasts | Insights & Growth |
+| :---: | :---: | :---: |
+| ![Dashboard](https://raw.githubusercontent.com/Shahad58/NexusSales-AI/main/screenshots/image_32a9df.jpg) | ![Forecasts](https://raw.githubusercontent.com/Shahad58/NexusSales-AI/main/screenshots/image_32aa5e.jpg) | ![Insights](https://raw.githubusercontent.com/Shahad58/NexusSales-AI/main/screenshots/image_32aab7.jpg) |
+
+| Sales Summary | Data Explorer & Inspection |
+| :---: | :---: |
+| ![Summary](https://raw.githubusercontent.com/Shahad58/NexusSales-AI/main/screenshots/image_32aada.jpg) | ![Data Explorer](https://raw.githubusercontent.com/Shahad58/NexusSales-AI/main/screenshots/image_32ae7e.jpg) |
+
 </div>
 
 ---
 
-## 🛠️ 𝑻𝒆𝒄𝒉 𝑺𝒕𝒂𝒄𝒌 | التقنيات المستخدمة
-
-<details>
-<summary><b>👉 Click to view the Technologies used (انقر لعرض التقنيات)</b></summary>
-<br>
+## 🛠️ 𝑻𝒆𝒄𝒉 𝑺𝒕𝒂𝒄𝚔 | التقنيات المستخدمة
 
 <div align="center">
 
-| Category | Technologies |
+| Layer | Technologies |
 | :--- | :--- |
-| **Frontend / UI** | `NiceGUI`, `HTML`, `CSS`, `Tailwind CSS`, `JavaScript` |
-| **Data Processing** | `Pandas`, `NumPy`, `Regex` |
-| **Machine Learning** | `Scikit-learn`, `Gradient Boosting` |
-| **Data Visualization** | `Plotly Express`, `Plotly Graph Objects` |
-| **Architecture** | Event-Driven, Auto-Cleaning Pipelines, RTL Adaptability |
+| **Frontend / UI** | `HTML5`, `CSS3`, `Tailwind CSS`, `JavaScript (ES6+)` |
+| **Visualization** | `Plotly.js` |
+| **Data Parsing** | `PapaParse`, `SheetJS` |
+| **Backend (Optional)** | `Python`, `NiceGUI`, `Pandas`, `Scikit-learn` |
 
 </div>
-</details>
 
 ---
 
-## ⚙️ 𝑹𝒖𝒏 𝑳𝒐𝒄𝒂𝒍𝒍𝒚 | التشغيل المحلي (للتجربة الكاملة)
+## ⚙️ 𝑹𝒖𝒏 𝑳𝒐𝒄𝒂𝒍𝒍𝒚 | التشغيل المحلي (التجربة الكاملة)
 
-To run this project on your machine and test the full interactive features:
+To run this project on your machine and test the full interactive features, follow these steps:
 
+**1. Clone the repository:**
 ```bash
-# 1. Clone the repository
-git clone https://github.com/Shahad58/NexusSales-AI-HTML.git
-
-# 2. Navigate to the project directory
-cd NexusSales-AI-HTML
-
-# 3. Install dependencies
+git clone [https://github.com/Shahad58/NexusSales-AI.git](https://github.com/Shahad58/NexusSales-AI.git)
+cd NexusSales-AI
+```
+**2. Install dependencies:**
+```bash
 pip install -r requirements.txt
-
-# 4. Run the application
+```
+**3. Run the application:**
+```bash
 python main.py
+```
