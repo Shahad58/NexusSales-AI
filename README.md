@@ -1,64 +1,121 @@
-# 🚀 NexusSales AI | Executive Sales Intelligence
+<div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-success?style=for-the-badge&logo=github)](#) 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![NiceGUI](https://img.shields.io/badge/NiceGUI-Framework-purple?style=for-the-badge)](https://nicegui.io/)
-[![Machine Learning](https://img.shields.io/badge/ML_Model-XGBoost_/_Scikit--learn-orange?style=for-the-badge)](https://scikit-learn.org/)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=818CF8&center=true&vCenter=true&width=800&lines=Executive+Sales+Intelligence;AI-Powered+Forecasting;Interactive+Dashboard;Full+Bilingual+(RTL)+Support" alt="Typing SVG" />
 
-> **NexusSales AI** is a premium, interactive executive dashboard designed to transform raw sales data into actionable business intelligence. It features automated data cleaning, AI-powered revenue forecasting, and a fully bilingual (English/Arabic RTL) user interface.
+<br>
 
----
+**𝐍𝐞𝐱𝐮𝐬𝐒𝐚𝐥𝐞𝐬 𝐀𝐈** ⛥
 
-## ✨ Key Features
+*𝑻𝒓𝒂𝒏𝒔𝒇𝒐𝒓𝒎𝒊𝒏𝒈 𝑹𝒂𝒘 𝑫𝒂𝒕𝒂 𝒊𝒏𝒕𝒐 𝑬𝒙𝒆𝒄𝒖𝒕𝒊𝒗𝒆 𝑫𝒆𝒄𝒊𝒔𝒊𝒐𝒏𝒔*
 
-- **📊 Executive Dashboard:** Real-time KPIs, revenue trends, and top-performing markets with interactive Plotly charts.
-- **🤖 AI-Powered Forecasting:** Utilizes Machine Learning (XGBoost) to predict future revenue based on historical data.
-- **🌍 Bilingual UI (RTL Support):** Seamless switching between English and Arabic, with complete RTL (Right-to-Left) layout adjustments using custom CSS/JS.
-- **🧹 Automated Data Cleaning:** Robust Pandas-based pipeline that handles missing values, date parsing, and currency detection automatically.
-- **💬 Smart Assistant:** Built-in executive chatbot to query data quickly (e.g., "What is the top product?").
-- **🎨 Premium Design:** Glassmorphism UI, particle animations, and fully responsive layout for desktop and mobile.
+[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-CLICK_HERE-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://Shahad58.github.io/NexusSales-AI/)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![NiceGUI](https://img.shields.io/badge/NiceGUI-Framework-8b5cf6?style=for-the-badge)](https://nicegui.io/)
+[![Machine Learning](https://img.shields.io/badge/ML-Forecasting-10b981?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-- **Frontend/Backend:** [NiceGUI](https://nicegui.io/) (Python-based UI framework) & HTML/CSS
-- **Data Processing:** Pandas, NumPy, Regex
-- **Machine Learning:** Scikit-learn, XGBoost
-- **Data Visualization:** Plotly Express & Graph Objects
-- **Styling:** Custom CSS, Tailwind CSS, JavaScript (Animations & RTL)
+## ⚡ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑶𝒗𝒆𝒓𝒗𝒊𝒆𝒘 | نظرة عامة
+
+**NexusSales AI** is not just a dashboard; it is a comprehensive **Executive Decision Engine**. Designed for modern sales leaders, it bridges the gap between raw, messy data and actionable business intelligence. 
+
+Whether you need to understand historical performance, predict next quarter's revenue, or instantly query your data via an AI assistant, NexusSales AI delivers a seamless, premium, and fully bilingual experience.
 
 ---
 
-## 📸 Screenshots
+## ✨ 𝑲𝒆𝒚 𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒔 | المميزات الرئيسية
 
-### 1. Home & Hero Section
-<img width="800" height="366" alt="VideoProject3-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/9888ad35-85b8-4760-b2eb-c753243ca039" />
+<table>
+  <tr>
+    <td width="50%">
+      <h3>📊 Executive Dashboard</h3>
+      <p>Real-time KPIs, revenue trends, and top-performing markets visualized with stunning, interactive Plotly charts.</p>
+    </td>
+    <td width="50%">
+      <h3>🤖 AI-Powered Forecasting</h3>
+      <p>Leverages Machine Learning (<b>Scikit-learn</b>) to project future revenue based on historical seasonal data.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🌍 True Bilingual UI (RTL)</h3>
+      <p>Seamless switching between English and Arabic. The entire layout, fonts, and charts adapt automatically to Right-to-Left.</p>
+    </td>
+    <td width="50%">
+      <h3>🧹 Automated Data Cleaning</h3>
+      <p>Drop any messy CSV or Excel file. The Pandas pipeline auto-detects currencies, parses dates, and cleans garbage data.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>💬 Smart Executive Chatbot</h3>
+      <p>Ask natural language questions like <i>"What is my top product?"</i> and get instant, data-driven answers.</p>
+    </td>
+    <td width="50%">
+      <h3>🎨 Premium Glassmorphism</h3>
+      <p>State-of-the-art UI with particle animations, smooth transitions, and a fully responsive layout.</p>
+    </td>
+  </tr>
+</table>
 
+---
 
+## 🖥️ 𝑽𝒊𝒔𝒖𝒂𝒍 𝑻𝒐𝒖𝒓 | جولة بصرية في المشروع
+
+<div align="center">
 
 <img width="1920" height="4558" alt="screencapture-127-0-0-1-8080-2026-10-25-23_36_36" src="https://github.com/user-attachments/assets/b981edde-328d-4023-b123-5e88524b251d" />
 
-### 2. Executive Dashboard & Forecasts
-![Dashboard](assets/screenshot2.png)
-
-### 3. Bilingual Arabic UI (RTL)
-![Arabic UI](assets/screenshot3.png)
+</div>
 
 ---
 
-## 🚀 Live Demo
+## 🛠️ 𝑻𝒆𝒄𝒉 𝑺𝒕𝒂𝒄𝒌 | التقنيات المستخدمة
 
-You can explore the live interactive project directly from your browser:
-👉 **[Launch NexusSales AI Live Demo](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)** 
+<div align="center">
 
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend / UI** | `NiceGUI`, `HTML`, `CSS`, `Tailwind CSS`, `JavaScript` |
+| **Data Processing** | `Pandas`, `NumPy`, `Regex` |
+| **Machine Learning** | `Scikit-learn`, `Gradient Boosting` |
+| **Data Visualization** | `Plotly Express`, `Plotly Graph Objects` |
+| **Architecture** | Event-Driven, Auto-Cleaning Pipelines, RTL Adaptability |
+
+</div>
 
 ---
 
-## ⚙️ How to Run Locally
+## 🚀 𝑹𝒆𝒂𝒅𝒚 𝒕𝒐 𝑬𝒙𝒑𝒍𝒐𝒓𝒆? | جرب المشروع الآن
 
-If you want to run this project on your own machine:
+<div align="center">
+  <br>
+  <a href="https://Shahad58.github.io/NexusSales-AI/">
+    <img src="https://img.shields.io/badge/⛥_LAUNCH_NEXUSSALES_AI-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="Launch Live Demo" width="300">
+  </a>
+  <br><br>
+  <i>*No installation required. Experience the full interactive dashboard directly in your browser.*</i>
+</div>
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Shahad58/NexusSales-AI.git
+---
+
+## ⚙️ 𝑹𝒖𝒏 𝑳𝒐𝒄𝒂𝒍𝒍𝒚 | التشغيل المحلي
+
+To run this project on your machine, follow these steps:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Shahad58/NexusSales-AI.git
+
+# 2. Navigate to the project directory
+cd NexusSales-AI
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the application
+python main.py
