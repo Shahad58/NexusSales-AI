@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=818CF8&center=true&vCenter=true&width=800&lines=Executive+Sales+Intelligence;AI-Powered+Forecasting;Interactive+Dashboard;Full+Bilingual+(RTL)+Support" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=818CF8&center=true&vCenter=true&width=800&lines=Executive+Sales+Intelligence;AI-Powered+Forecasting;Interactive+Dashboard;Full+Bilingual+(RTL)+Support" alt="Typing SVG" />
 
 <br>
 
@@ -10,11 +10,16 @@
 
 <br>
 
-[![UI Preview](https://img.shields.io/badge/🖥️_UI_PREVIEW-CLICK_HERE-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://Shahad58.github.io/NexusSales-AI-HTML/)
+<!-- زر التشغيل المباشر -->
+<a href="https://Shahad58.github.io/NexusSales-AI-HTML/">
+  <img src="https://img.shields.io/badge/🚀_TRY_THE_PROJECT_NOW-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Try the Project Now" height="45">
+</a>
+
+<br><br>
+
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![NiceGUI](https://img.shields.io/badge/NiceGUI-Framework-8b5cf6?style=for-the-badge)](https://nicegui.io/)
 [![Made with Love](https://img.shields.io/badge/Made_with-❤️_&_☕-ff69b4?style=for-the-badge)](#)
-[![Responsive](https://img.shields.io/badge/Responsive-100%25-10b981?style=for-the-badge&logo=googlechrome&logoColor=white)](#)
 
 </div>
 
@@ -22,10 +27,8 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-> [!IMPORTANT]  
-> **Static Preview Note:** The GitHub Pages link above is a **Static UI Preview**. The full interactive features (ML Forecasting, Chatbot, Data Cleaning) require a Python backend. Please follow the "Run Locally" instructions below to test the full functionality.
-
----
+> [!NOTE]  
+> **Live UI Preview:** The link above directs to a **Static HTML Preview** of the dashboard. To test the full AI and backend features (Forecasting, Chatbot), please follow the "Run Locally" guide below.
 
 ## ⚡ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑶𝒗𝒆𝒓𝒗𝒊𝒆𝒘 | نظرة عامة
 
@@ -76,8 +79,8 @@ Whether you need to understand historical performance, predict next quarter's re
 
 <div align="center">
   <br>
-  <!-- ✂️ امسح هذا السطر واسحب وأفلت صورتك الشاملة (أو صورة الـ GIF) هنا -->
-  <!-- مثال: <img src="رابط_الصورة" width="800" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" /> -->
+  <!-- ✂️ امسح هذا السطر واسحب صورة الـ GIF المتحركة هنا -->
+  
   <br>
 </div>
 
