@@ -1604,7 +1604,6 @@ def build_footer():
 
 
 def refresh_static_texts():
-    """Update the parts of the page that are not rebuilt by set_page()."""
     chat_title_lbl.set_text(t("chat_title"))
     chat_sub_lbl.set_text(t("chat_subtitle"))
     chat_input._props['placeholder'] = t("chat_placeholder")
