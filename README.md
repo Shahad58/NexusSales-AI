@@ -33,13 +33,13 @@
 
 > [!NOTE]
 > **💡 ملاحظة (Note)**
+> 
 > الرابط أعلاه مخصص لعرض تجريبي للواجهة فقط (Static Preview).
+> 
 > **لتجربة أفضل واختبار كافة المميزات الذكية للمشروع، يُنصح باستخدام البرنامج بالطريقة الموضحة في الخطوات أدناه.**
->
+> 
 > *The link above is a static UI preview only. For the best experience and to test all AI features, we recommend running the application locally using the steps below.*
-
 ---
-
 
 ## ⚡ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑶𝒗𝒆𝒓𝒗𝒊𝒆𝒘 | نظرة عامة
 
