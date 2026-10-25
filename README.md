@@ -31,10 +31,11 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 > [!NOTE]
-> **💡 تلميح استكشافي (Explore the Full Experience)**
-> الرابط المذكور أعلاه يمثل **نسخة استعراضية للواجهة (Static UI Preview)** لتفقد التصميم وسرعة التصفح.  
-> **للاستمتاع بالمميزات الكاملة لمحرك الذكاء الاصطناعي ومعالجة البيانات، ندعوك لتشغيل النسخة البرمجية الكاملة محلياً باتباع الخطوات البسيطة التالية:**
-
+> **💡 ملاحظة (Note)**
+> الرابط أعلاه مخصص لعرض تجريبي للواجهة فقط (Static Preview).
+> **لتجربة أفضل واختبار كافة المميزات الذكية للمشروع، يُنصح باستخدام البرنامج بالطريقة الموضحة في الخطوات أدناه.**
+>
+> *The link above is a static UI preview only. For the best experience and to test all AI features, we recommend running the application locally using the steps below.*
 ---
 
 ## ⚡ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑶𝒗𝒆𝒓𝒗𝒊𝒆𝒘 | نظرة عامة
