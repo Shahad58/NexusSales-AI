@@ -99,19 +99,10 @@ Whether you need to understand historical performance, predict next quarter's re
 
 
 
-
-
-    <img width="800" height="370" alt="ezgif-72487de3b76858bf" src="https://github.com/user-attachments/assets/b77a644b-1847-4405-9601-0e76ac410a64" />
-
-
+<img width="800" height="370" alt="ezgif-72487de3b76858bf" src="https://github.com/user-attachments/assets/b77a644b-1847-4405-9601-0e76ac410a64" />
 
 
 <img width="800" height="370" alt="ezgif-7f98f0388556fb41" src="https://github.com/user-attachments/assets/dd46b781-b439-4a6c-9faf-48c338fc0941" />
-
-
-
-
-
 
 <img width="800" height="370" alt="ezgif-73e64a22cca3c09b" src="https://github.com/user-attachments/assets/25a7c314-1655-46a7-bcfc-9358c98e13f5" />
 
