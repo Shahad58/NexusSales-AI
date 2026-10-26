@@ -507,7 +507,7 @@ ui.add_head_html('''
    FONT SYSTEM
    English : Playfair Display (headings) + Outfit (body)
    Arabic  : Amiri (headings)           + IBM Plex Sans Arabic (body)
-   تقدر تغيّر خط العناوين العربي من هنا فقط، مثلاً:
+
    --ar-display: 'Noto Kufi Arabic', sans-serif;
    ============================================================ */
 :root {
