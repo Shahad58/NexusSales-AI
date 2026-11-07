@@ -557,7 +557,7 @@ function mountPlotly(elId, fig) {
     }, 150);
 }
 
-// دالة مساعدة لتنسيق المحور المالي
+
 function getCurrencyLayout() {
     return { tickprefix: state.currencySymbol, tickformat: ",.0f" };
 }
@@ -1031,10 +1031,10 @@ function renderHome() {
 
     document.getElementById('content-container').innerHTML = html;
 
-    // تحسين الرسم البياني للصفحة الرئيسية
+
     const fig = plotFig(
         [{ 
-            x: monthly.map(m => m.month + '-01'), // تمرير التاريخ كـ YYYY-MM-DD ليفهمه Plotly
+            x: monthly.map(m => m.month + '-01'), 
             y: monthly.map(m => m.value), 
             name: t('historical_sales'),
             mode: 'lines+markers', 
@@ -1133,7 +1133,7 @@ function renderDashboard() {
 
     document.getElementById('content-container').innerHTML = html;
 
-    // تحسين الرسم البياني للإيرادات عبر الزمن
+
     const fig1 = plotFig(
         [{ 
             x: monthly.map(m => m.month + '-01'), 
@@ -1154,7 +1154,7 @@ function renderDashboard() {
     );
     mountPlotly('revChart', fig1);
 
-    // تحسين رسم الأسواق
+
     const fig2 = plotFig(
         [{ 
             x: markets.map(m => m.value), 
@@ -1236,7 +1236,7 @@ function runForecastUI() {
         </div>
     </div>`;
 
-    // تحسين رسم التنبؤات
+
     const fig = plotFig(
         [
             { 
