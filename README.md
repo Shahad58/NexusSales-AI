@@ -118,9 +118,11 @@ python app.py
 | Category | Technologies |
 | :--- | :--- |
 | **Frontend / UI** | `HTML5`, `CSS3`, `Tailwind CSS`, `JavaScript (ES6+)`, `NiceGUI` |
-| **Data Processing** | `Python`, `Pandas`, `NumPy`, `Regex` |
-| **Machine Learning** | `Scikit-learn`, `Gradient Boosting` |
+| **Backend / Application** | `Python`, `NiceGUI` |
+| **Data Processing** |  `Pandas`, `NumPy`, `Regex` |
+| **Machine Learning** | `Scikit-learn`, `XGBoost` |
 | **Data Visualization** | `Plotly Express`, `Plotly Graph Objects` |
+| **File Handling** | `Excel`, `CSV`, `OpenPyXL` |
 
 </div>
 
