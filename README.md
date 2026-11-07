@@ -117,7 +117,7 @@ python app.py
 
 | Category | Technologies |
 | :--- | :--- |
-| **Frontend / UI** | `HTML5`, `CSS3`, `Tailwind CSS`, `JavaScript (ES6+)`, `NiceGUI` |
+| **Frontend / UI** | `HTML5`, `CSS3`, `Tailwind CSS`, `JavaScript (ES6+)` |
 | **Backend / Application** | `Python`, `NiceGUI` |
 | **Data Processing** |  `Pandas`, `NumPy`, `Regex` |
 | **Machine Learning** | `Scikit-learn`, `XGBoost` |
